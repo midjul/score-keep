@@ -26,8 +26,8 @@ let playerName=e.target.playerName.value;
 
   render(){ 
       return (<div className="item">
-  <form onSubmit={this.handleSubmit} >
-            <input type="text" name="playerName"
+  <form className="form" onSubmit={this.handleSubmit} >
+            <input className="form__input" type="text" name="playerName"
                    placeholder="Player name" />
            <button className="button">Add Player</button>
          </form>
